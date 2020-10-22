@@ -1,5 +1,6 @@
 var express = require('express')
   , http = require('http');
+const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const cookieParser = require('cookie-parser');
